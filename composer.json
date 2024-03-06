@@ -1,0 +1,11 @@
+{
+    "require": {
+        "googleads/google-ads-php": "^19.2",
+        "react/http": "^1.9"
+    },
+    "scripts": {
+        "post-drupal-scaffold-cmd": [
+            "echo '** -text diff' >> vendor/google/.gitattributes"
+        ]
+    }
+}
